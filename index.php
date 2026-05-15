@@ -1,7 +1,21 @@
-<!-- Generate a random number -->
-<?php
-$randomNumber = rand(50, 51);
-?>
+<!--  Generate a basic website with css -->
 
-<!-- Display the random number -->
-<p>The random number is: <?php echo $randomNumber; ?></p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1{
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <h1>Hello World</h1>
+    <?php
+    echo "<h1>Hello World</h1>";
+    ?>
+</body>
+</html>
