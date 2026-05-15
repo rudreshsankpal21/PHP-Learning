@@ -19,7 +19,6 @@ $percentage = ($total / 300) * 100;
 
     <h2>Total Marks: <?php echo $total; ?></h2>
     <h2>Percentage: <?php echo $percentage; ?></h2>
-    <h2>
 
      <?php
      
@@ -32,6 +31,5 @@ $percentage = ($total / 300) * 100;
 
      ?>
 
-     </h2>
 </body>
 </html>
